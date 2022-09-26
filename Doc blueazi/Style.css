@@ -1,0 +1,142 @@
+body
+{
+   margin: 0 auto;
+}
+header{
+   background-color: #293133;
+   height: 80px;
+}
+nav ul li 
+{
+display: inline-block;
+}
+
+nav ul li a 
+{
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+text-decoration: none;
+}
+nav .menu
+{
+   margin-top: -70px;
+   margin-left: 850px;
+}
+nav .menu li a
+{
+  margin-right: 20px;
+}
+nav .logo
+{
+line-height: 80px;
+margin-left: 200px;
+}
+ul .logo a{
+   font-size: 20px;
+color: white; 
+text-decoration: none;
+}
+/* nous sommes au niveau du texte*/
+.phrase
+{
+   text-align: center;
+   font-size: 30px;
+   line-height: 50px;
+   color: white;
+  margin-top: 250px;
+
+}
+.home
+{
+   height: 650px;
+   background-size: cover;
+}
+/* partie service*/
+.service ul li
+{
+   display: inline-block;
+   margin-right: 30px;
+}
+.diatta
+{
+   margin-left: 300px;
+}
+.service h2
+{
+   margin-left: 338px;
+   line-height: 60px;
+   
+}
+.service h2::after
+{
+  content: "__";
+  display: block;
+  margin-top: -55px;
+   
+}
+.service
+{
+   background-color: #4dcaff;
+   margin-top: -20px;
+   color: white;
+}
+/*partie formulaire */
+.formulaire
+{
+   background:transparent;
+   background-size: cover;
+   height: 650px;
+   margin-top: -20px;
+color: white;
+
+}
+.formulaire table
+{
+margin-left: 338px;
+}
+.formulaire h2
+{
+margin-left: 338px;
+}
+.formulaire table tr td p
+{
+   margin-bottom: -10px;
+   margin-left:  150px;
+}
+.formulaire td input
+{
+   width: 350px;
+   height: 50px;
+background: transparent;
+
+border: 2px solid white;
+}
+.formulaire form textarea 
+{
+  margin-left: 338px;
+  background: no-repeat;
+
+border: 2px solid white;
+}
+.mess
+{
+  margin-left: 338px;
+}
+.bouton
+{
+  margin-left: 338px;
+  width: 130px;
+  height: 20px;
+  background-color:#4dcaff;
+  border: none;
+  cursor: pointer;
+}
+footer
+{
+   background-color: #293133;
+   opacity: 50px;
+   height: 60px;
+   margin-top: -50px;
+   color: white;
+}
